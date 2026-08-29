@@ -1,0 +1,35 @@
+I've uploaded my CV (Word doc or PDF — either is fine) with my academic/professional background. Use it to build a single-page, responsive, SEO-optimized HTML portfolio website that Google can index and surface when someone searches my name.
+
+Rules:
+
+Extract only what's explicitly in the document. Never invent names, dates, publications, bios, or credentials.
+Don't silently use placeholders for missing content — ask me directly instead.
+If something is ambiguous (unclear title, a date range that doesn't add up, a section that could go two ways), ask rather than guess.
+
+Before writing any code, do this:
+
+List what you found for each typical section: About, Education, Licensure/Certifications, Academic Appointments, Clinical Practice, Courses Taught, Publications/Scholarship, Awards & Grants, Professional Memberships, Contact.
+Note any other content that doesn't fit those categories and ask where I'd like it placed.
+Flag anything missing, unclear, or open to more than one interpretation.
+Ask me one focused round of clarifying questions covering the above, plus:
+My GitHub username (so the site URL, SEO tags, and sitemap can be set correctly — e.g. yourusername.github.io, or tell me if you're using a custom domain instead)
+Photo placeholder or no photo section?
+Color/style preference, or should you choose?
+Preferred section order, or is a standard order fine?
+Omit empty sections, or show them as "Coming soon"?
+
+Only after I answer, generate the one-page HTML: clean, minimalist academic design (serif+sans-serif pairing), mobile responsive, print-friendly, using only confirmed content.
+
+SEO requirements — build these into the page itself, using my actual GitHub username/domain (no placeholder URLs):
+
+A descriptive <title> tag with my full name and current role/institution
+A <meta name="description"> summarizing who I am in ~150–160 characters
+Open Graph tags (og:title, og:description, og:image, og:type) so the page previews well when shared/linked
+A <meta name="author"> tag with my name
+Semantic HTML5 structure (<header>, <main>, <section>, proper heading hierarchy — one <h1> with my name)
+JSON-LD structured data using schema.org/Person, including name, jobTitle, affiliation, and sameAs links (to my researcher profile, LinkedIn, ORCID, etc. — only ones I actually provide)
+A companion sitemap.xml and robots.txt file for the site, using my real URL
+Alt text on any images (e.g., my photo)
+A canonical URL tag using my real GitHub Pages URL or custom domain
+
+Give me the HTML file (plus sitemap.xml and robots.txt) as downloads, not just a preview.
