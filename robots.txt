@@ -1,4 +1,5 @@
+# Replace USERNAME.github.io with your real GitHub Pages host or custom domain.
 User-agent: *
 Allow: /
 
-Sitemap: https://rodavid20.github.io/sitemap.xml
+Sitemap: https://USERNAME.github.io/sitemap.xml
