@@ -4,24 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- =====================================================================
-     BEFORE PUBLISHING: replace every occurrence of  USERNAME.github.io
-     with your real GitHub Pages host (or custom domain).
-     It appears 4x in this file, 1x in sitemap.xml, 1x in robots.txt.
-     Find and replace "USERNAME.github.io" across all three files.
-     og-image.png and photo.jpg ship alongside this file.
-     ===================================================================== -->
-
 <title>Dr. Roshan David Jathanna | Assistant Professor, Manipal Institute of Technology</title>
 <meta name="description" content="Dr. Roshan David Jathanna, Assistant Professor, School of Computer Engineering, Manipal Institute of Technology. Machine learning and health informatics.">
 <meta name="author" content="Roshan David Jathanna">
-<link rel="canonical" href="https://USERNAME.github.io/">
+<link rel="canonical" href="https://rodavid20.github.io/">
 
 <meta property="og:type" content="profile">
 <meta property="og:title" content="Dr. Roshan David Jathanna | Assistant Professor, Manipal Institute of Technology">
 <meta property="og:description" content="Assistant Professor (Selection Grade), School of Computer Engineering, Manipal Institute of Technology. Machine learning and health informatics.">
-<meta property="og:url" content="https://USERNAME.github.io/">
-<meta property="og:image" content="https://USERNAME.github.io/og-image.png">
+<meta property="og:url" content="https://rodavid20.github.io/">
+<meta property="og:image" content="https://rodavid20.github.io/og-image.png">
 <meta property="og:image:alt" content="Dr. Roshan David Jathanna, Assistant Professor at Manipal Institute of Technology.">
 <meta property="profile:first_name" content="Roshan">
 <meta property="profile:last_name" content="Jathanna">
@@ -29,7 +21,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Dr. Roshan David Jathanna | Assistant Professor, Manipal Institute of Technology">
 <meta name="twitter:description" content="Assistant Professor (Selection Grade), School of Computer Engineering, Manipal Institute of Technology.">
-<meta name="twitter:image" content="https://USERNAME.github.io/og-image.png">
+<meta name="twitter:image" content="https://rodavid20.github.io/og-image.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,13 +31,13 @@
 {
   "@context": "https://schema.org",
   "@type": "Person",
-  "@id": "https://USERNAME.github.io/#person",
+  "@id": "https://rodavid20.github.io/#person",
   "name": "Roshan David Jathanna",
   "givenName": "Roshan",
   "familyName": "Jathanna",
   "honorificPrefix": "Dr.",
-  "url": "https://USERNAME.github.io/",
-  "image": "https://USERNAME.github.io/og-image.png",
+  "url": "https://rodavid20.github.io/",
+  "image": "https://rodavid20.github.io/og-image.png",
   "jobTitle": "Assistant Professor (Selection Grade)",
   "email": "mailto:roshan.jathanna@manipal.edu",
   "telephone": "9845702658",
@@ -112,11 +104,12 @@
 <style>
 :root{
   --paper:#FBFBF9;
-  --ink:#14181F;
-  --ink-soft:#4E5867;
+  --ink:#12222A;
+  --ink-soft:#4A5C66;
   --ink-faint:#7C8694;
-  --rule:#E2E4DF;
+  --rule:#D9E4E6;
   --accent:#1F5C6E;
+  --accent-mid:#35707F;
   --accent-wash:#EDF3F4;
 
   --serif:"Source Serif 4",Charter,"Iowan Old Style","Palatino Linotype",Georgia,serif;
@@ -159,7 +152,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
   font-size:.72rem;
   letter-spacing:.12em;
   text-transform:uppercase;
-  color:var(--ink-faint);
+  color:var(--accent-mid);
   margin:0 0 1.1rem;
 }
 h1{
@@ -192,11 +185,7 @@ h1{
 }
 
 .masthead-grid{display:grid;grid-template-columns:132px 1fr;gap:0 2rem;align-items:start}
-.portrait{
-  width:132px;height:132px;border-radius:50%;object-fit:cover;
-  display:block;margin-top:.35rem;
-  filter:saturate(.92);
-}
+.portrait{width:132px;height:132px;border-radius:50%;object-fit:cover;display:block;margin-top:.35rem}
 
 /* ---------- nav ---------- */
 .sitenav{
@@ -234,6 +223,14 @@ h1{
 main section{padding-block:3.25rem;border-bottom:1px solid var(--rule)}
 main section:last-of-type{border-bottom:none}
 
+h2::before{
+  content:"";
+  display:block;
+  width:2.1rem;
+  height:2px;
+  background:var(--accent);
+  margin-bottom:.85rem;
+}
 h2{
   font-family:var(--mono);
   font-size:.76rem;
@@ -275,7 +272,7 @@ p:last-child{margin-bottom:0}
   top:.72em;
   width:5px;
   height:1px;
-  background:var(--ink-faint);
+  background:var(--accent-mid);
 }
 .notes li:last-child{margin-bottom:0}
 
@@ -293,7 +290,7 @@ p:last-child{margin-bottom:0}
   font-family:var(--mono);
   font-size:.78rem;
   line-height:1.5;
-  color:var(--ink-faint);
+  color:var(--accent-mid);
   padding-top:.18rem;
   font-variant-numeric:tabular-nums;
 }
@@ -310,7 +307,7 @@ p:last-child{margin-bottom:0}
   font-weight:600;
   margin:2.1rem 0 .9rem;
   padding-bottom:.45rem;
-  border-bottom:1px solid var(--rule);
+  border-bottom:2px solid var(--accent);
 }
 .org:first-of-type{margin-top:0}
 
@@ -321,7 +318,7 @@ p:last-child{margin-bottom:0}
   font-weight:500;
   letter-spacing:.12em;
   text-transform:uppercase;
-  color:var(--ink-faint);
+  color:var(--accent);
   margin:2.3rem 0 1rem;
 }
 .subhead:first-of-type{margin-top:0}
@@ -343,7 +340,7 @@ p:last-child{margin-bottom:0}
   display:inline-block;
   font-family:var(--mono);
   font-size:.7rem;
-  color:var(--ink-faint);
+  color:var(--accent-mid);
   margin-top:.4rem;
 }
 
@@ -404,7 +401,7 @@ p:last-child{margin-bottom:0}
   font-family:var(--mono);
   font-size:.74rem;
   letter-spacing:.04em;
-  color:var(--ink-faint);
+  color:var(--accent-mid);
   padding-top:.14rem;
 }
 .skills dd{margin:0;color:var(--ink-soft)}
@@ -414,6 +411,7 @@ p:last-child{margin-bottom:0}
   border-left:2px solid var(--accent);
   padding:.15rem 0 .15rem 1.15rem;
 }
+.award + .award{margin-top:1.5rem}
 .award .name{font-family:var(--serif);font-size:1.1rem;font-weight:600;display:block}
 
 /* ---------- contact ---------- */
@@ -430,7 +428,7 @@ p:last-child{margin-bottom:0}
   font-family:var(--mono);
   font-size:.74rem;
   letter-spacing:.04em;
-  color:var(--ink-faint);
+  color:var(--accent-mid);
   padding-top:.14rem;
 }
 .contact dd{margin:0;word-break:break-word}
@@ -439,7 +437,7 @@ footer{
   padding-block:2.5rem 4rem;
   font-family:var(--mono);
   font-size:.74rem;
-  color:var(--ink-faint);
+  color:var(--accent-mid);
   border-top:1px solid var(--rule);
 }
 
@@ -459,9 +457,9 @@ html{scroll-behavior:smooth}
 /* ---------- mobile ---------- */
 @media (max-width:640px){
   body{font-size:16px}
+  .masthead{padding-block:3rem 1.75rem}
   .masthead-grid{grid-template-columns:1fr;gap:1.15rem}
   .portrait{width:104px;height:104px;margin-top:0}
-  .masthead{padding-block:3rem 1.75rem}
   main section{padding-block:2.5rem}
   .rail > div,.pubs li,.skills > div,.contact > div{
     grid-template-columns:1fr;
@@ -481,6 +479,9 @@ html{scroll-behavior:smooth}
   a{color:#000;border-bottom:none}
   h1{font-size:22pt}
   h2{color:#000;font-size:8.5pt;margin-bottom:.9rem}
+  h2::before{background:#000}
+  .when,.tag,.eyebrow,.skills dt,.contact dt,.subhead{color:#333}
+  .org{border-bottom-color:#999}
   main section{padding-block:1.1rem;break-inside:auto;border-bottom:1px solid #ccc}
   .rail > div,.pubs li,.people li,.projects li,.skills > div,.contact > div{
     break-inside:avoid;
@@ -692,12 +693,12 @@ html{scroll-behavior:smooth}
 
 <section id="publications" class="wrap" aria-labelledby="h-publications">
   <h2 id="h-publications">Publications</h2>
-  <h3 class="subhead">Journal Articles</h3>
   <ul class="pubs">
     <li>
       <div class="when">2026</div>
       <div>
-        <p class="cite">Peter A, S., Prabhu, M., Bhandary, P. V., Ritchie, L., Bhandary P, R., Mayya, S. S., Noronha, J. A., Chakrabarty, J., Jathanna, R. D., &amp; Devi, E. S. Abuse in dementia care: caregiver burden, behavioral and psychological symptoms of dementia, and bidirectional abuse &mdash; a cross-sectional study. <span class="venue">Journal of Elder Abuse and Neglect</span>. <span class="tag">Accepted / in press</span></p>
+        <p class="cite">Peter A, S., Prabhu, M., Bhandary, P. V., Ritchie, L., Bhandary P, R., Mayya, S. S., Noronha, J. A., Chakrabarty, J., Jathanna, R. D., &amp; Devi, E. S. Abuse in dementia care: caregiver burden, behavioral and psychological symptoms of dementia, and bidirectional abuse &mdash; a cross-sectional study. <span class="venue">Journal of Elder Abuse and Neglect</span>.
+        <span class="tag">Accepted / in press</span></p>
       </div>
     </li>
     <li>
@@ -730,6 +731,21 @@ html{scroll-behavior:smooth}
       <div>
         <p class="cite">Amin, A. N., Somu, G., Salins, P. L., &amp; Jathanna, R. D. Design and implementation of a web-based patient registration system in a single-centered tertiary care hospital of coastal Karnataka. <span class="venue">BMC Health Services Research, 26</span>(1), 533.
         <a class="doi" href="https://doi.org/10.1186/s12913-026-14299-3">doi.org/10.1186/s12913-026-14299-3</a></p>
+      </div>
+    </li>
+    <li>
+      <div class="when">2026</div>
+      <div>
+        <p class="cite">Jain, S. N., Dmello, J. S., Patel, R., Balachandra, M., Jathanna, R. D., Mani, S., &amp; Agrawal, P. Automation of Android-based actions using large action models. In B. S. Virdee, T. Ali, J. Anguera, &amp; S. L. Tripathy (Eds.), <span class="venue">Connecting Intelligence: Trends in Computation and Data Communication</span> (1st ed., pp. 73&ndash;78). CRC Press.
+        <span class="tag">Book chapter &middot; presented at ICCIDC 2025, Bali</span></p>
+      </div>
+    </li>
+    <li>
+      <div class="when">2026</div>
+      <div>
+        <p class="cite">Palo, C., Pai, M., Prathibha, G., Keerthesh, N., &amp; Jathanna, R. D. An integrated browser-based tool for commissioning and maintenance of smart electrical panels. <span class="venue">SSRN</span>.
+        <span class="tag">Preprint &middot; Best Paper, SLTBS 2026</span>
+        <a class="doi" href="https://ssrn.com/abstract=6357658">ssrn.com/abstract=6357658</a></p>
       </div>
     </li>
     <li>
@@ -795,32 +811,12 @@ html{scroll-behavior:smooth}
         <a class="doi" href="https://doi.org/10.35940/ijitee.A4936.119119">doi.org/10.35940/ijitee.A4936.119119</a></p>
       </div>
     </li>
-  </ul>
-
-  <h3 class="subhead">Book Chapters &amp; Conference Papers</h3>
-  <ul class="pubs">
-    <li>
-      <div class="when">2026</div>
-      <div>
-        <p class="cite">Jain, S. N., Dmello, J. S., Patel, R., Balachandra, M., Jathanna, R. D., Mani, S., &amp; Agrawal, P. Automation of Android-based actions using large action models. In B. S. Virdee, T. Ali, J. Anguera, &amp; S. L. Tripathy (Eds.), <span class="venue">Connecting Intelligence: Trends in Computation and Data Communication</span> (1st ed., pp. 73&ndash;78). CRC Press. <span class="tag">Presented at ICCIDC 2025, Bali, Indonesia</span></p>
-      </div>
-    </li>
     <li>
       <div class="when">2018</div>
       <div>
-        <p class="cite">Annadurai, S., Manoj, R., &amp; Jathanna, R. D. A novel self-transforming image encryption algorithm using intrinsically mutating PRNG. In A. K. Somani, S. Srivastava, A. Mundra, &amp; S. Rawat (Eds.), <span class="venue">Proceedings of First International Conference on Smart System, Innovations and Computing</span> (pp. 203&ndash;214). Springer Singapore. <span class="tag">SSIC 2017, Manipal University Jaipur</span>
+        <p class="cite">Annadurai, S., Manoj, R., &amp; Jathanna, R. D. A novel self-transforming image encryption algorithm using intrinsically mutating PRNG. In A. K. Somani, S. Srivastava, A. Mundra, &amp; S. Rawat (Eds.), <span class="venue">Proceedings of First International Conference on Smart System, Innovations and Computing</span> (pp. 203&ndash;214). Springer Singapore.
+        <span class="tag">Conference paper &middot; SSIC 2017, Manipal University Jaipur</span>
         <a class="doi" href="https://doi.org/10.1007/978-981-10-5828-8_20">doi.org/10.1007/978-981-10-5828-8_20</a></p>
-      </div>
-    </li>
-  </ul>
-
-  <h3 class="subhead">Preprints</h3>
-  <ul class="pubs">
-    <li>
-      <div class="when">2026</div>
-      <div>
-        <p class="cite">Palo, C., Pai, M., Prathibha, G., Keerthesh, N., &amp; Jathanna, R. D. An integrated browser-based tool for commissioning and maintenance of smart electrical panels. <span class="venue">SSRN</span>. <span class="tag">Best Paper, SLTBS 2026, CHRIST (Deemed to be University), Bangalore</span>
-        <a class="doi" href="https://ssrn.com/abstract=6357658">ssrn.com/abstract=6357658</a></p>
       </div>
     </li>
   </ul>
@@ -958,7 +954,7 @@ html{scroll-behavior:smooth}
     <span class="name">Best Paper Award &mdash; 2026</span>
     <span class="where">International Conference on Sustainability-Led Transformation in Business and Society (SLTBS 2026), CHRIST (Deemed to be University), Bangalore</span>
   </div>
-  <div class="award" style="margin-top:1.5rem">
+  <div class="award">
     <span class="name">Best Teacher Award &mdash; 2014</span>
     <span class="where">Manipal Academy of Higher Education (MAHE)</span>
   </div>

@@ -1,4 +1,3 @@
-# Replace USERNAME.github.io with your real GitHub Pages host or custom domain.
 User-agent: *
 Allow: /
 
